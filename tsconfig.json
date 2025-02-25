@@ -23,19 +23,19 @@
     "strict": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "plugins":[
-       {
-          "transform":"typescript-transform-paths"
-       },
-       {
-          "transform":"typescript-transform-paths",
-          "afterDeclarations": true
-       }
-    ],
+    "plugins": [
+      {
+        "transform": "typescript-transform-paths"
+      },
+      {
+        "transform": "typescript-transform-paths",
+        "afterDeclarations": true
+      }
+    ]
   },
   "ts-node": {
-      "transpileOnly": true,
-      "files": true
+    "transpileOnly": true,
+    "files": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "build"]
